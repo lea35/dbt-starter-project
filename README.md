@@ -1,5 +1,11 @@
 Dans ce POC, je te montre comment faire fonctionner dbt avec DuckDB en local (Windows).
 
+### Environnement
+* Windows 11
+* VSCode: 1.88.1
+* dbt: 1.7.13
+* duckdb: 1.7.4
+
 ### Setup dbt
 * Création du venv: *py -m venv dbt_env_poc*
 * Accès au venv: *.\dbt_env_poc\Scripts\Activate.ps1*
