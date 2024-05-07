@@ -10,10 +10,10 @@ Dans ce POC, je te montre comment faire fonctionner dbt avec DuckDB en local (Wi
 
 ### Exécution et vérification des transformations
 * Exécuter les transformations: *dbt run*
-* Exécuter DuckDB dans le dossier du projet
+* Exécuter DuckDB dans le dossier du projet: \
 ![duckdb](duck_db_connexion.png)
 * Ouvrir la base de données dev.duckdb initialisée dans profile.yml: *.open dev.duckdb*
-* Vérifier la création des tables dans votre base de données:
+* Vérifier la création des tables dans votre base de données: \
 ![show_tables](show_tables.png)
 
 ### Ressources:
