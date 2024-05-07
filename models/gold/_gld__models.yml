@@ -1,0 +1,37 @@
+
+version: 2
+
+models:
+    - name: gld__traveller_view
+      description: Booking informations
+      columns:
+          - name: nb_passengers
+            description: number of passengers
+          - name: sales_channel
+            description: from which device purchase has been made
+          - name: trip_type
+            description: round trip or one way
+          - name: purchase_lead
+            description: nb of days unti the trip
+          - name: lenght_of_stay
+            description: lenght of the stay
+          - name: flight_departure_hour 
+            description: hour of flight departure
+          - name: flight_day
+            description: day of week of flight departure
+          - name: departure_city
+            description: city where the flight take off
+          - name: arrival_city
+            description: city where the flight lands      
+          - name: flight_duration
+            description: flight duration in hours    
+          - name: booking_origin_country
+            description: Country from which the reservation was made
+          - name : wants_extra_baggage
+            description: the passenger has requested or not an extra baggage
+          - name: wants_preffered_seat
+            description: the passenger has requested or not a preferred seat
+          - name: wants_in_flight_meals
+            description: the passenger has requested or not a meal during the flight
+          - name: booking_complete
+            description: is the booking complete or not?
