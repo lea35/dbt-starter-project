@@ -1,4 +1,4 @@
 {{ config(materialized='table') }}
 
-SELECT * from {{ref('customer_booking')}}
+SELECT * from {{ref('bronze_customer_booking')}}
 GROUP BY ALL
