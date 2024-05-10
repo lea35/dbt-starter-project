@@ -5,5 +5,7 @@ dbt_packages/
 logs/
 dev.duckdb
 dev.duckdb.wal
+dbt_env_poc/
+.dbt_env_poc/
 # legacy -- renamed to dbt_packages in v1
 dbt_modules/
